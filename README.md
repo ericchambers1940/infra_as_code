@@ -24,10 +24,10 @@ tbd...
     
 
 # Tools Used
-- Hashicorp Terraform Community Edition - provisions our infrastructure as code. This includes any AWS resources.
-- Hashicorp Packer - used to generate an AMI/machine image automatically.
-- Ansible - used to configure the AMI to our needs.
-- GitHub Actions - CI/CD tool for automatically performing each step in this lab.
-- Git - used for managing and versioning source code collaboratively.
-- VirtualBox - A type 2 virtualization hypervisor. Used for creating simple virtual machines.
-- AWS EC2, ALB, Scaling Groups, IAM - common AWS services we will use for this lab.
+- [Hashicorp Terraform Community Edition](https://spacelift.io/blog/terraform-ec2-instance) - provisions our infrastructure as code. This includes any AWS resources.
+- [Hashicorp Packer](https://computingforgeeks.com/build-aws-ec2-machine-images-with-packer-and-ansible/?expand_article=1) - used to generate an AMI/machine image automatically.
+- [Ansible](https://spacelift.io/blog/ansible-tutorial) - used to configure the AMI to our needs.
+- [GitHub Actions](https://www.pluralsight.com/resources/blog/cloud/how-to-use-github-actions-to-automate-terraform) - CI/CD tool for automatically performing each step in this lab.
+- [Git](https://www.w3schools.com/git/git_intro.asp?remote=github) - used for managing and versioning source code collaboratively.
+- [VirtualBox](https://www.geeksforgeeks.org/how-to-install-ubuntu-on-virtualbox/) - A type 2 virtualization hypervisor. Used for creating simple virtual machines.
+- [AWS EC2, ALB, Scaling Groups, IAM](https://docs.aws.amazon.com/index.html) - common AWS services we will use for this lab.
