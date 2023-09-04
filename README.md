@@ -24,10 +24,10 @@ tbd...
     
 
 # Tools Used
-- Hashicorp Terraform Community Edition
-- Hashicorp Packer
-- Ansible
-- GitHub Actions
-- Git
-- VirtualBox
-- AWS EC2, ALB, Scaling Groups, IAM
+- Hashicorp Terraform Community Edition - provisions our infrastructure as code. This includes any AWS resources.
+- Hashicorp Packer - used to generate an AMI/machine image automatically.
+- Ansible - used to configure the AMI to our needs.
+- GitHub Actions - CI/CD tool for automatically performing each step in this lab.
+- Git - used for managing and versioning source code collaboratively.
+- VirtualBox - A type 2 virtualization hypervisor. Used for creating simple virtual machines.
+- AWS EC2, ALB, Scaling Groups, IAM - common AWS services we will use for this lab.
