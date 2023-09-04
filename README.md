@@ -15,6 +15,12 @@ Repository containing infrastructure provisioning code and configuration.
 10. Run the appropriate terraform commands against your TF configuration to "plan" and deploy your EC2 instance with the newly created AMI.
 11. Login to your EC2 instance using SSH. Use the curl utility to download the contents of Apache's sample web page. If no errors come up, then proceed to the next step. Otherwise, troubleshoot and fix your issue.
 12. Destroy the EC2 instance using Terraform.
+
+## Phase 2 - Load Balancers and EC2 Scaling Groups.
+tbd...
+
+## Phase 3 - Repeat using GitHub Actions
+tbd...
     
 
 # Tools Used
